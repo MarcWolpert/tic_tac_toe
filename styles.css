@@ -18,9 +18,16 @@ button {
     justify-content: center;
     height: 70vh;
     width: 40vw;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto repeat(3, 1fr) auto;
+    grid-template-rows:repeat(3, 1fr);
     gap: 15px;
+}
+
+.tile{
+    display:grid;
+    justify-content:center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:2vw;
 }
 
 .header {
@@ -64,4 +71,8 @@ button {
 #statusMessage {
     font-size: 1.25rem;
     color: #333;
+}
+
+h1{
+    align-self:center;
 }
