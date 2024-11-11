@@ -76,3 +76,25 @@ button {
 h1{
     align-self:center;
 }
+
+.players{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 5vw;
+}
+
+
+.playerCard{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+}
+
+input{
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    border-radius:12px;
+}
